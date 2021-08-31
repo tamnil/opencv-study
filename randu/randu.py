@@ -11,8 +11,8 @@ dst = np.array([[1,2,3],[4,5,6],[2,3,4]])
 
 
 
-cv2.randu(x,1,10);
 cv2.randu(y,1,10);
+cv2.randu(x,1,10);
 
 print(x.get())
 print(y.get())
